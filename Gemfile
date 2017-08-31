@@ -51,7 +51,7 @@ gem 'mail-iso-2022-jp', '2.0.2'
 gem 'iconv', '1.0.4'
 gem 'jpmobile', '4.0.0'
 gem 'activerecord-session_store', '0.1.0'#, github: 'rails/activerecord-session_store'
-gem 'rmagick', #'2.13.2'
+gem 'rmagick'#, '2.13.2'
 gem 'activerecord-import', '0.5.0'
 gem 'paperclip', '3.5.2'
 
