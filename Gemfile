@@ -38,7 +38,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 group :production do
-  gem 'pg','0.17.1'
+  gem 'pg'#,'0.17.1'
 end
 gem 'acts_as_tree', '1.5.0'
 gem 'acts_as_list', '0.3.0'
@@ -51,7 +51,7 @@ gem 'mail-iso-2022-jp', '2.0.2'
 gem 'iconv', '1.0.4'
 gem 'jpmobile', '4.0.0'
 gem 'activerecord-session_store', '0.1.0'#, github: 'rails/activerecord-session_store'
-gem 'rmagick', '2.13.2'
+gem 'rmagick', #'2.13.2'
 gem 'activerecord-import', '0.5.0'
 gem 'paperclip', '3.5.2'
 
@@ -66,7 +66,7 @@ gem 'prototype_legacy_helper', '0.0.0', git: 'git://github.com/rails/prototype_l
 # for development
 group :development do
   gem 'quiet_assets', '1.0.2'
-   gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 # for development, test
