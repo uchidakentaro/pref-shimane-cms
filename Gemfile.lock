@@ -412,7 +412,7 @@ DEPENDENCIES
   quiet_assets (= 1.0.2)
   rails (= 4.0.2)
   rails_config (= 0.3.3)
-  rmagick (= 2.13.2)
+  rmagick
   rqrcode (= 0.4.2)
   rqrcode_png (= 0.1.2)
   rspec-rails (= 2.14.1)
