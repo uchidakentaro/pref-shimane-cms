@@ -37,8 +37,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-gem 'pg', '0.17.1'
+group :production do
+  gem 'pg','0.17.1'
+end
 gem 'acts_as_tree', '1.5.0'
 gem 'acts_as_list', '0.3.0'
 gem 'rails_config', '0.3.3'
@@ -65,6 +66,7 @@ gem 'prototype_legacy_helper', '0.0.0', git: 'git://github.com/rails/prototype_l
 # for development
 group :development do
   gem 'quiet_assets', '1.0.2'
+   gem 'sqlite3'
 end
 
 # for development, test
