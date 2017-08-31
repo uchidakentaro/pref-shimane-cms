@@ -38,7 +38,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 group :production do
-  gem 'pg'#,'0.17.1'
+  gem 'pg','0.17.1'
 end
 gem 'acts_as_tree', '1.5.0'
 gem 'acts_as_list', '0.3.0'
