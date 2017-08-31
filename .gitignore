@@ -26,7 +26,7 @@
 /config/environments/*.local.yml
 
 # Ignore installed migrations
-/db/migrate/*.*.rb
+#/db/migrate/*.*.rb
 
 # Ignore public. directory
 /public.
