@@ -17,7 +17,7 @@
 
 # Ignore files differ in individuals
 /config/database.yml
-/Gemfile.lock
+#/Gemfile.lock
 /vendor/engines/*/Gemfile.lock
 
 # Ignore rails_config local files
