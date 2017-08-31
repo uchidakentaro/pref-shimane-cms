@@ -16,12 +16,12 @@
 /tmp
 
 # Ignore files differ in individuals
-/config/database.yml
+#/config/database.yml
 #/Gemfile.lock
 /vendor/engines/*/Gemfile.lock
 
 # Ignore rails_config local files
-/config/settings.local.yml
+#/config/settings.local.yml
 /config/settings/*.local.yml
 /config/environments/*.local.yml
 
@@ -39,4 +39,4 @@
 /vendor/src
 
 # Ignore assets files for production
-/public/assets/
+#/public/assets/

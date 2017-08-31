@@ -1,0 +1,81 @@
+#susanoo-pages-index table.table-pages thead,
+#susanoo-pages-index table.table-pages tbody {
+  width: 100%;
+}
+#susanoo-pages-index table.table-pages thead th {
+  vertical-align: middle;
+}
+#susanoo-pages-index table.table-pages thead:first-child tr:first-child th {
+  border-top: 1px solid #dddddd;
+}
+#susanoo-pages-index table.table-pages tbody td {
+  vertical-align: middle;
+}
+#susanoo-pages-index table.table-pages th,
+#susanoo-pages-index table.table-pages td {
+  border: 1px solid #dddddd;
+}
+#susanoo-pages-index table.table-pages thead th.admission,
+#susanoo-pages-index table.table-pages thead th.preview,
+#susanoo-pages-index table.table-pages thead th.last_modified,
+#susanoo-pages-index table.table-pages thead th.begin_date {
+  border-top: 0;
+}
+#susanoo-pages-index table.table-pages .latest,
+#susanoo-pages-index table.table-pages .private,
+#susanoo-pages-index table.table-pages .operation,
+#susanoo-pages-index table.table-pages .admission,
+#susanoo-pages-index table.table-pages .preview,
+#susanoo-pages-index table.table-pages .last_modified {
+  text-align: center;
+}
+#susanoo-pages-index table.table-pages .title,
+#susanoo-pages-index table.table-pages .latest,
+#susanoo-pages-index table.table-pages .private,
+#susanoo-pages-index table.table-pages .admission,
+#susanoo-pages-index table.table-pages .last_modified,
+#susanoo-pages-index table.table-pages .operation {
+  border-left: 1px solid #dddddd;
+}
+#susanoo-pages-index table.table-pages .genre {
+  min-width: 100px;
+}
+#susanoo-pages-index table.table-pages .title {
+  min-width: 120px;
+}
+#susanoo-pages-index table.table-pages .admission {
+  width: 100px;
+}
+#susanoo-pages-index table.table-pages .last_modified {
+  width: 80px;
+}
+#susanoo-pages-index table.table-pages .operation {
+  width: 90px;
+}
+#susanoo-pages-index table.table-pages .preview {
+  width: 110px;
+}
+#susanoo-pages-index table.table-pages tbody tr:hover > td,
+#susanoo-pages-index table.table-pages tbody tr:hover > th {
+  background-color: #e9e9e9;
+}
+#susanoo-pages-index table.table-pages .sort .dropup.caret {
+  margin-top: 7px;
+  margin-left: 5px;
+  border-top: 0;
+  border-bottom: 4px solid #0088cc;
+}
+#susanoo-pages-index table.table-pages .sort .dropdown.caret {
+  margin-top: 7px;
+  margin-left: 5px;
+  border-top: 4px solid #0088cc;
+}
+/**
+ * 詳細画面
+ */
+#susanoo-pages-show .page-content {
+  margin-bottom: 20px;
+}
+#susanoo-pages-show .data-label {
+  width: 150px;
+}

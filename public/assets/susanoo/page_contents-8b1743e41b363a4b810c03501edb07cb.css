@@ -1,0 +1,19 @@
+#susanoo-page_contents-new #wrap,
+#susanoo-page_contents-edit #wrap,
+#susanoo-page_contents-new_mobile #wrap,
+#susanoo-page_contents-edit_mobile #wrap {
+  margin: 0;
+}
+#susanoo-page_contents-new .container-main.container-fluid,
+#susanoo-page_contents-edit .container-main.container-fluid,
+#susanoo-page_contents-new_mobile .container-main.container-fluid,
+#susanoo-page_contents-edit_mobile .container-main.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+div.well th {
+  padding: 5px 5px 5px 5px;
+}
+div.ImagePreviewBox td {
+  width: 400px\9;
+}

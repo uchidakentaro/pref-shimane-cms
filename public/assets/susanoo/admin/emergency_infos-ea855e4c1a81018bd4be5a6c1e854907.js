@@ -1,0 +1,1 @@
+(function(){var n,o;n=function(){function n(){}return n.prototype.init=function(){return CKEDITOR.replace("emergency_info_content",{toolbar:Toolbar.standard,allowedContent:AllowedContent.info})},n}(),Susanoo.Admin||(Susanoo.Admin={}),(o=Susanoo.Admin).EmergencyInfo||(o.EmergencyInfo={}),Susanoo.Admin.EmergencyInfo.Form=new n}).call(this);

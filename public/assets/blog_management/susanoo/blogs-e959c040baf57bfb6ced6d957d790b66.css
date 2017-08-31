@@ -1,0 +1,73 @@
+#blog_management-susanoo-blogs-index table.table-pages {
+  width: 100%;
+}
+#blog_management-susanoo-blogs-index table.table-pages thead th {
+  vertical-align: middle;
+}
+#blog_management-susanoo-blogs-index table.table-pages thead:first-child tr:first-child th {
+  border-top: 1px solid #dddddd;
+}
+#blog_management-susanoo-blogs-index table.table-pages tbody td {
+  vertical-align: middle;
+}
+#blog_management-susanoo-blogs-index table.table-pages th,
+#blog_management-susanoo-blogs-index table.table-pages td {
+  border: 1px solid #dddddd;
+}
+#blog_management-susanoo-blogs-index table.table-pages .latest,
+#blog_management-susanoo-blogs-index table.table-pages .private,
+#blog_management-susanoo-blogs-index table.table-pages .operation,
+#blog_management-susanoo-blogs-index table.table-pages .admission,
+#blog_management-susanoo-blogs-index table.table-pages .begin_date,
+#blog_management-susanoo-blogs-index table.table-pages .end_date,
+#blog_management-susanoo-blogs-index table.table-pages .blog_date,
+#blog_management-susanoo-blogs-index table.table-pages .preview {
+  text-align: center;
+}
+#blog_management-susanoo-blogs-index table.table-pages thead th.admission,
+#blog_management-susanoo-blogs-index table.table-pages thead th.begin_date,
+#blog_management-susanoo-blogs-index table.table-pages thead th.end_date,
+#blog_management-susanoo-blogs-index table.table-pages thead th.blog_date,
+#blog_management-susanoo-blogs-index table.table-pages thead th.preview {
+  border-top: 0;
+}
+#blog_management-susanoo-blogs-index table.table-pages .title,
+#blog_management-susanoo-blogs-index table.table-pages .latest,
+#blog_management-susanoo-blogs-index table.table-pages .private,
+#blog_management-susanoo-blogs-index table.table-pages .admission,
+#blog_management-susanoo-blogs-index table.table-pages .operation,
+#blog_management-susanoo-blogs-index table.table-pages .preview,
+#blog_management-susanoo-blogs-index table.table-pages .blog_date {
+  border-left: 1px solid #dddddd;
+}
+#blog_management-susanoo-blogs-index table.table-pages .genre {
+  min-width: 100px;
+}
+#blog_management-susanoo-blogs-index table.table-pages .title {
+  min-width: 120px;
+}
+#blog_management-susanoo-blogs-index table.table-pages .admission {
+  width: 100px;
+}
+#blog_management-susanoo-blogs-index table.table-pages .blog_date {
+  width: 100px;
+}
+#blog_management-susanoo-blogs-index table.table-pages .operation {
+  width: 90px;
+}
+#blog_management-susanoo-blogs-index table.table-pages .preview {
+  width: 110px;
+}
+#blog_management-susanoo-blogs-index table.table-pages tbody tr:hover > td,
+#blog_management-susanoo-blogs-index table.table-pages tbody tr:hover > th {
+  background-color: #e9e9e9;
+}
+/**
+ * 詳細画面
+ */
+#susanoo-pages-show .page-content {
+  margin-bottom: 20px;
+}
+#susanoo-pages-show .data-label {
+  width: 150px;
+}

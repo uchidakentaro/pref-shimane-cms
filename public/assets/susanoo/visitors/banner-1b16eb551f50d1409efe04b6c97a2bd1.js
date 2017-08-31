@@ -1,0 +1,1 @@
+BANNERS=[{url:"http://yahoo.co.jp",alt:"\u30c6\u30b9\u30c8\u5e83\u544a3",image:"/images/advertisement/3.jpg"},{url:"http://www.netlab.jp",alt:"\u30c6\u30b9\u30c8_4",image:"/images/advertisement/7.jpg"}];

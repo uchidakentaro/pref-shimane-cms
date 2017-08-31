@@ -1,0 +1,1 @@
+CKEDITOR.plugins.setLang("letterspacing","ja",{label:"\u6587\u5b57\u9593\u9694"});

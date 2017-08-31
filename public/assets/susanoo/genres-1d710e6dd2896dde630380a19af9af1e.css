@@ -1,0 +1,36 @@
+#susanoo-genres-index table#file-index {
+  margin-bottom: 0px;
+}
+#susanoo-genres-index table#file-index > tbody > tr {
+  cursor: pointer;
+}
+#susanoo-genres-index table#file-index th.icon {
+  width: 20px;
+}
+#susanoo-genres-index table#file-index td.indent {
+  text-indent: 1em;
+}
+#susanoo-genres-index table#file-index td.move,
+#susanoo-genres-index table#file-index th.move {
+  width: 60px;
+  text-align: 'center';
+}
+#susanoo-genres-index table#file-index td.move div.move-area {
+  margin-left: 20px;
+}
+#susanoo-genres-index table#file-index td.move div.move-link {
+  height: 8px;
+  line-height: 8px;
+}
+#susanoo-genres-index table#file-index td.move div.move-down {
+  margin: 5px 0 0 0;
+}
+#susanoo-genres-index .explore .col-center {
+  overflow-y: scroll;
+}
+#susanoo-genres-index .explore .col-button-group {
+  margin: 0 5px;
+}
+#susanoo-genres-index .explore .col-button-group a {
+  margin-top: 5px;
+}

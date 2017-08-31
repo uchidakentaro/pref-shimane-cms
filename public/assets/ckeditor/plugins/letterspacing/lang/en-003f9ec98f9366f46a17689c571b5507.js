@@ -1,0 +1,1 @@
+CKEDITOR.plugins.setLang("letterspacing","en",{label:"letterspacing"});

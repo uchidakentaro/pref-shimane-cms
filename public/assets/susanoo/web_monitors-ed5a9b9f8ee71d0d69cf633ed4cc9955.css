@@ -1,0 +1,7 @@
+#susanoo-web_monitors-index table.table-web-monitors {
+  width: auto;
+}
+#susanoo-web_monitors-index table.table-web-monitors .name,
+#susanoo-web_monitors-index table.table-web-monitors .login {
+  min-width: 140px;
+}

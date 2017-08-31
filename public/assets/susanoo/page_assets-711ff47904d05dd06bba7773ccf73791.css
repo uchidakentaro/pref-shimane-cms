@@ -1,0 +1,45 @@
+#treeview li {
+  display: block;
+}
+#susanoo-page_assets-attachment_files table#file-index {
+  margin-bottom: 0px;
+}
+#susanoo-page_assets-attachment_files table#file-index > tbody > tr {
+  cursor: pointer;
+}
+#susanoo-page_assets-attachment_files table#file-index th.icon {
+  width: 20px;
+}
+#susanoo-page_assets-attachment_files table#file-index td.indent {
+  text-indent: 1em;
+}
+#susanoo-page_assets-attachment_files table#file-index td.move,
+#susanoo-page_assets-attachment_files table#file-index th.move {
+  width: 60px;
+  text-align: 'center';
+}
+#susanoo-page_assets-attachment_files table#file-index td.move div.move-area {
+  margin-left: 20px;
+}
+#susanoo-page_assets-attachment_files table#file-index td.move div.move-link {
+  height: 8px;
+  line-height: 8px;
+}
+#susanoo-page_assets-attachment_files table#file-index td.move div.move-down {
+  margin: 5px 0 0 0;
+}
+#susanoo-page_assets-attachment_files .explore {
+  background-color: white;
+}
+#susanoo-page_assets-attachment_files .explore .col-center {
+  overflow-y: auto;
+}
+#susanoo-page_assets-attachment_files .explore .col-button-group {
+  margin: 0 5px;
+}
+#susanoo-page_assets-attachment_files .explore .col-button-group a {
+  margin-top: 5px;
+}
+#susanoo-page_assets-attachment_files .explore .fileupload-list {
+  overflow-y: auto;
+}
