@@ -1,0 +1,70 @@
+  <div id="content-wrapper" class="container">
+    <div id="content">
+      <div class="row">
+        <div class="span12">
+          <%= render partial: '/susanoo/visitors/shared/topic_path', locals: {page: @page_view.page} %>
+	
+		<div id="tf-home">
+        <div class="overlay">
+            <div id="sticky-anchor"></div>
+		<!--
+            <nav id="tf-menu" class="navbar navbar-default">
+                <div class="container">
+		-->
+                    <!-- Brand and toggle get grouped for better mobile display -->
+		<!--              
+	      <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand logo" href="index.html">Uchida Kentaro</a>
+                    </div>
+		-->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+		<!--
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#tf-home">トップ</a></li>
+                        <li><a href="#tf-service">サービス</a></li>
+                        <li><a href="#tf-portfolio">自分の趣味</a></li>
+                        <li><a href="#tf-about">私</a></li>
+                        <li><a href="#tf-contact">連絡</a></li>
+                      </ul>-->
+			<!--
+                    </div>--><!-- /.navbar-collapse -->
+			<!--
+                </div>--><!-- /.container-fluid -->
+	<!--
+            </nav>
+		-->
+		<!--
+            <div class="container">
+                <div class="content">
+                    <h1>島根県CMS de Webページ！！</h1>
+                    <h3>これから色々かくよ！</h3>
+                    <br>
+                    <a href="#tf-contact" class="btn btn-primary my-btn">連絡</a>
+                    <a href="#tf-portfolio" class="btn btn-primary my-btn2">自己紹介</a>
+                </div>
+            </div>
+	-->
+        </div>
+    </div>
+	
+			
+	
+          <div id="honbun">
+            <!-- begin page-content -->
+            <div id="page-content">
+              <%= render partial: '/susanoo/visitors/shared/content' %>
+            </div> <!-- end page-content -->
+          </div><!-- end honbun -->
+        </div><!-- end .span12 -->
+      </div><!-- end .row -->
+      <%= render partial: '/susanoo/visitors/section_info_configure/content'  if EngineMaster.enable?('section_info_configure') %>
+    </div>
+  </div><!-- end content-wrapper -->

@@ -1,0 +1,79 @@
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="X-FRAME-OPTIONS" content="SAMEORIGIN" />
+<meta name="Keywords" content="pref-shimane-cms,CMS,Ruby,Rails" />
+<meta name="Description" content="pref-shimane-cms" />
+
+   <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+<!--
+<link type="text/css" rel="stylesheet" href="/css/doc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/css/test.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/css/custom.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/css/banner.css" media="all" />
+-->
+  <link rel="shortcut icon" href="img/favicon.ico" type="img/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+
+<% # RSS load %>
+<% if @page_view.rss_create? && @page_view.rss_path && @page_view.page.try(:persisted?) -%>
+<link type="application/rss+xml" rel="alternate" href="<%= @page_view.rss_path %>" media="all" title="RSS" />
+<% end -%>
+<% if @page_view.edit -%>
+<%= stylesheet_link_tag 'editor.iframe', media: 'all' %>
+<%= javascript_include_tag "application" %>
+<%= javascript_include_tag "editor.iframe" %>
+<% else -%>
+<!--
+<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<!--
+<script type="text/javascript" src="/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="/js/SmoothScroll.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+-->
+<!--
+<script type="text/javascript" src="/js/modernizr.custom.js"></script>
+-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
+-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<!--
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+-->
+
+    <!-- js
+    ================================================== -->
+<!--
+    <script type="text/javascript" src="/js/main.js"></script>
+-->
+<% end -%>
+<%- # load for AdvertisementManagement -%>
+<%= render partial: "/susanoo/visitors/advertisement_management/header"  if EngineMaster.enable?('advertisement_management') -%>
+<%- # load for BrowsingSupport -%>
+<%= render partial: "/susanoo/visitors/browsing_support/header"  if EngineMaster.enable?('browsing_support') -%>
+<title>くそごみ :<%= @page_view.page.title %></title>

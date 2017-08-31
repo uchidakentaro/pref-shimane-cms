@@ -1,0 +1,44 @@
+<!--
+<div id="footer">
+  <div class="container">
+    <div class="pull-right">
+      <%= link_to t('susanoo.visitors.footer.link.back_to_top'), '#skip' %>
+    </div>
+    <div id="footer-content" class="row">
+      <div class="span12">
+        <p><strong><%= t('susanoo.visitors.footer.title') %></strong></p>
+        <p><%= t('susanoo.visitors.footer.label.address') %>&nbsp;〒<%= t('susanoo.visitors.footer.postcode') %>&nbsp;<%= t('susanoo.visitors.footer.address') %><br />
+        <%= t('susanoo.visitors.footer.label.tel') %>&nbsp;<%= t('susanoo.visitors.footer.tel') %></p>
+      </div>
+    </div>
+    <div id="footer-copyright" class="row">
+      <div class="span12">
+      <p>Copyright (C) <%= t('susanoo.visitors.footer.copyright') %></p>
+      </div>
+    </div>
+<% if @page_view.page.try(:enquete?) -%>
+  <%= raw @page_view.page.genre.analytics_code_also_parent.gsub!(/http:\/\/www.google-analytics\.com\/urchin\.js/,'https://www.google-analytics.com/urchin.js') if !@preview && @page_view.page && @page_view.page.genre && @page_view.page.genre.analytics_code_also_parent %>
+<% else -%>
+  <%= raw @page_view.page.genre.analytics_code_also_parent if !@preview && @page_view.page && @page_view.page.genre && @page_view.page.genre.analytics_code_also_parent %>
+<% end -%>
+  </div>
+</div>
+-->
+<nav id="tf-footer">
+        <div class="container">
+             <div class="pull-left">
+                <p>2015 © Awesomess. All Rights Reserved. Designed and Coded by <a href="https://dribbble.com/jennpereira">Jenn</a> for <a href="https://themeforces.com">ThemeForces.Com</a></p>
+            </div>
+            <div class="pull-right"> 
+                <ul class="social-media list-inline">
+                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                    <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                    <li><a href="#"><span class="fa fa-behance"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
